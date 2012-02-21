@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+
+<object name="portal_skins">
+
+ <object name="wysiwyg_biografy"
+    meta_type="Filesystem Directory View"
+    directory="collective.wysiwyg_biografy:skins/wysiwyg_biografy"
+	remove="True" />
+
+ <skin-path name="*">
+  <layer name="wysiwyg_biografy" remove="True" />
+ </skin-path>
+
+</object>

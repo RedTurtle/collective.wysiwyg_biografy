@@ -1,0 +1,28 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:five="http://namespaces.zope.org/five"
+    xmlns:i18n="http://namespaces.zope.org/i18n"
+    xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
+    xmlns:cmf="http://namespaces.zope.org/cmf"
+    i18n_domain="collective.wysiwyg_biografy">
+
+  <five:registerPackage package="." initialize=".initialize" />
+
+  <cmf:registerDirectory name="wysiwyg_biografy"/>
+
+  <genericsetup:registerProfile
+      name="default"
+      title="collective.wysiwyg_biografy"
+      directory="profiles/default"
+      description="Biografy field of your users using the WYSIWYG editor"
+      provides="Products.GenericSetup.interfaces.EXTENSION"
+      />
+  <genericsetup:registerProfile
+      name="uninstall"
+      title="collective.wysiwyg_biografy: uninstall"
+      directory="profiles/uninstall"
+      description="Remove collective.wysiwyg_biografy"
+      provides="Products.GenericSetup.interfaces.EXTENSION"
+      />
+  
+</configure>
