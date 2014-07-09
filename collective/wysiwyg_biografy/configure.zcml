@@ -10,6 +10,8 @@
 
   <cmf:registerDirectory name="wysiwyg_biografy"/>
 
+  <include package=".browser" />
+
   <genericsetup:registerProfile
       name="default"
       title="collective.wysiwyg_biografy"
@@ -17,6 +19,7 @@
       description="Biografy field of your users using the WYSIWYG editor"
       provides="Products.GenericSetup.interfaces.EXTENSION"
       />
+
   <genericsetup:registerProfile
       name="uninstall"
       title="collective.wysiwyg_biografy: uninstall"

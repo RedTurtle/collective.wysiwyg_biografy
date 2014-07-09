@@ -1,18 +1,18 @@
 from setuptools import setup, find_packages
 import os
 
-version = '0.1.0'
+version = '0.2.0'
 
 setup(name='collective.wysiwyg_biografy',
       version=version,
       description="The Plone user's biografy using the WYSIWYG editor",
-      long_description=open("README.txt").read() + "\n" +
-                       open(os.path.join("docs", "HISTORY.txt")).read(),
+      long_description=open("README.rst").read() + "\n" +
+                       open(os.path.join("docs", "HISTORY.rst")).read(),
       # Get more strings from
       # http://pypi.python.org/pypi?:action=list_classifiers
       classifiers=[
         "Framework :: Plone",
-        "Framework :: Plone :: 3.3",
+        "Framework :: Plone :: 4.3",
         "Programming Language :: Python",
         "Development Status :: 4 - Beta",
         ],
@@ -27,7 +27,8 @@ setup(name='collective.wysiwyg_biografy',
       zip_safe=False,
       install_requires=[
           'setuptools',
-          # -*- Extra requirements: -*-
+          'Products.CMFPlone>4.0b1',
+          'plone.app.users',
       ],
       entry_points="""
       [z3c.autoinclude.plugin]

@@ -1,0 +1,4 @@
+<layers>
+    <layer name="collective.wysiwyg_biografy"
+           interface="collective.wysiwyg_biografy.interfaces.IWYSIWYGBioLayer" />
+</layers>
