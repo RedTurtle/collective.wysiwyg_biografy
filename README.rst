@@ -1,13 +1,8 @@
 Introduction
 ============
 
-Simple product for Plone 3. It change the user *Biografy* field to use the current
+Simple product for Plone. It change the user *Biografy* field to use the current
 WYSIWYG editor.
-
-Please **note** that we tested this with `TinyMCE`__, not the default Plone 3 editor
-(*Kupu*).
-
-__ http://pypi.python.org/pypi/Products.TinyMCE
 
 Credits
 =======
@@ -30,3 +25,4 @@ This product was developed by RedTurtle Technology team.
    :alt: RedTurtle Technology Site
    :target: http://www.redturtle.it/
 
+   
