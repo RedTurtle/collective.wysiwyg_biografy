@@ -1,7 +1,7 @@
 Changelog
 =========
 
-0.2.0 (Unreleased)
+0.2.0 (2014-07-10)
 ------------------
 
 Dropped Plone 3.3 compatibility
