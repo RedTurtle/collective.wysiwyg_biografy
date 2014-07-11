@@ -13,4 +13,11 @@
     layer="..interfaces.IWYSIWYGBioLayer"
     />
 
+  <browser:page
+      for="plone.app.layout.navigation.interfaces.INavigationRoot"
+      name="user-information"
+      class=".personal_information.CustomizedUserDataConfiglet"
+      layer="..interfaces.IWYSIWYGBioLayer"
+      permission="plone.app.controlpanel.UsersAndGroups"
+      />
 </configure>
