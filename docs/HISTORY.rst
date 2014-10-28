@@ -1,7 +1,7 @@
 Changelog
 =========
 
-0.2.1 (unreleased)
+0.2.1 (2014-10-28)
 ------------------
 
 - Fix Plone 4.3 compatibility in @@user-information [cekk]
